@@ -18,11 +18,12 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r cars, echo=TRUE}
 summary(cars)
 a = 5 + 8
-print(a)
+b = a * 7
+print(a, b)
 ```
 
 ```{r echo=FALSE}
-print('Loving R')
+print('Loving R! Thank you! You are the best.')
 ```
 
 ## Including Plots
